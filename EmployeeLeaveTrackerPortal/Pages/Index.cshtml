@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<style>
+.container {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-90%, -50%);
+        
+        
+    }
+</style>
+<div class="container display-4">
+    <img src="~/managing-employee-leave-header.png" alt="Snow" style="width:100%;">
+    <div class="centered">Employee Leave Tracker Portal</div>
+</div>

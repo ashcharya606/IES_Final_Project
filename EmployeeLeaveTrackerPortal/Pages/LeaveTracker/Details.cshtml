@@ -1,0 +1,100 @@
+@page
+@model EmployeeLeaveTrackerPortal.Pages.LeaveTracker.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Employee.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Employee.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Employee.Department)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Employee.Department)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Employee.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Employee.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Employee.Reason)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Employee.Reason)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Employee.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Employee.Email)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Employee.EmployeeId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
+<dt class="col-sm-2">
+    @Html.DisplayNameFor(model => model.Employee.Email)
+</dt>
+<dd class="col-sm-10">
+    @Html.DisplayFor(model => model.Employee.Email)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.Employee.Status)
+</dt>
+<dd>
+    @Html.DisplayFor(model => model.Employee.Status)
+</dd>
+    </dl>
+</div>
+
+@if (Model.Employee.Status != LeaveStatus.Approved)
+{
+    @if ((await AuthorizationService.AuthorizeAsync(
+   User, Model.Employee, EmployeeTrackerOperations.Approve)).Succeeded)
+    {
+        <form style="display:inline;" method="post">
+            <input type="hidden" name="id" value="@Model.Employee.EmployeeId" />
+            <input type="hidden" name="status" value="@LeaveStatus.Approved" />
+            <button type="submit" class="btn btn-xs btn-success">Approve</button>
+        </form>
+    }
+}
+
+@if (Model.Employee.Status != LeaveStatus.Rejected)
+{
+    @if ((await AuthorizationService.AuthorizeAsync(
+   User, Model.Employee, EmployeeTrackerOperations.Reject)).Succeeded)
+    {
+        <form style="display:inline;" method="post">
+            <input type="hidden" name="id" value="@Model.Employee.EmployeeId" />
+            <input type="hidden" name="status" value="@LeaveStatus.Rejected" />
+            <button type="submit" class="btn btn-xs btn-danger">Reject</button>
+        </form>
+    }
+}
+
+<div>
+    @if ((await AuthorizationService.AuthorizeAsync(
+    User, Model.Employee,
+    EmployeeTrackerOperations.Update)).Succeeded)
+    {
+        <a asp-page="./Edit" asp-route-id="@Model.Employee.EmployeeId">Edit</a>
+        <text> | </text>
+    }
+    <a asp-page="./Index">Back to List</a>
+</div>
