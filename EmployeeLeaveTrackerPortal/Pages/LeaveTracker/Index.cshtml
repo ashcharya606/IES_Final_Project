@@ -1,0 +1,101 @@
+@page
+@model EmployeeLeaveTrackerPortal.Pages.LeaveTracker.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Employee Leave Status</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<form method="get">
+    <select asp-for="SelectedStatus" asp-items="Html.GetEnumSelectList<LeaveStatus>()">
+        <option value="">-- Select Status --</option>
+    </select>
+    <button type="submit">Filter</button>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].Department)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].Reason)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee[0].Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Employee)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Department)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Reason)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @if ((await AuthorizationService.AuthorizeAsync(
+                   User, item,
+                   EmployeeTrackerOperations.Update)).Succeeded)
+                    {
+                        <a asp-page="./Edit" asp-route-id="@item.EmployeeId">Edit</a>
+                        <text> | </text>
+                    }
+
+                    <a asp-page="./Details" asp-route-id="@item.EmployeeId">Details</a>
+
+                    @if ((await AuthorizationService.AuthorizeAsync(
+                   User, item,
+                   EmployeeTrackerOperations.Delete)).Succeeded)
+                    {
+                        <text> | </text>
+                        <a asp-page="./Delete" asp-route-id="@item.EmployeeId">Delete</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<style>
+    .page-container {
+        background-color: #ffffff; 
+        min-height: 100vh; 
+        padding: 20px;
+    }
+
+    .container {
+        background-color: #ade6e6; 
+        padding: 20px;
+        border-radius: 8px; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+</style>

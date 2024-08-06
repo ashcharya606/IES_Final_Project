@@ -1,0 +1,411 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\leavetracker\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\leavetracker\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\authorization\\employeeisownerauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:authorization\\employeeisownerauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\leavetracker\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\leavetracker\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\leavetracker\\createmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\leavetracker\\createmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\leavetracker\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\leavetracker\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\leavetracker\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\leavetracker\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\leavetracker\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\leavetracker\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\authorization\\employeetrackeroperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:authorization\\employeetrackeroperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\leavetracker\\details2model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\leavetracker\\details2model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\leavetracker\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\leavetracker\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\leavetracker\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\leavetracker\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\pages\\leavetracker\\di_basepagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:pages\\leavetracker\\di_basepagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|d:\\big data analystics\\information encoding standards\\employeeleavetrackerportal\\authorization\\employeeadministratorsauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88CF9F8E-8738-4D9B-B83E-7A220A9C17E7}|EmployeeLeaveTrackerPortal.csproj|solutionrelative:authorization\\employeeadministratorsauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\LeaveTracker\\Index.cshtml",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Index.cshtml",
+              "RelativeToolTip": "Pages\\LeaveTracker\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T21:03:22.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Privacy.cshtml",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T00:36:50.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeIsOwnerAuthorizationHandler.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Authorization\\EmployeeIsOwnerAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "Authorization\\EmployeeIsOwnerAuthorizationHandler.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Authorization\\EmployeeIsOwnerAuthorizationHandler.cs",
+              "RelativeToolTip": "Authorization\\EmployeeIsOwnerAuthorizationHandler.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T22:10:53.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "Model\\Employee.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Model\\Employee.cs",
+              "RelativeToolTip": "Model\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T22:01:01.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T20:45:17.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA/wBcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T21:17:33.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T21:42:45.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "00000000000000_CreateIdentitySchema.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeToolTip": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAwwJsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T23:25:41.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T23:42:30.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T21:42:49.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeeTrackerOperations.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Authorization\\EmployeeTrackerOperations.cs",
+              "RelativeDocumentMoniker": "Authorization\\EmployeeTrackerOperations.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Authorization\\EmployeeTrackerOperations.cs",
+              "RelativeToolTip": "Authorization\\EmployeeTrackerOperations.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAEwB4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T21:19:47.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T21:42:33.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\LeaveTracker\\Index.cshtml.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\LeaveTracker\\Index.cshtml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwC8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T21:45:17.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\LeaveTracker\\Create.cshtml",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Create.cshtml",
+              "RelativeToolTip": "Pages\\LeaveTracker\\Create.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAuwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T21:58:46.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details2Model.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Details2Model.cs",
+              "RelativeDocumentMoniker": "Pages\\LeaveTracker\\Details2Model.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Details2Model.cs",
+              "RelativeToolTip": "Pages\\LeaveTracker\\Details2Model.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwDMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T21:15:18.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\LeaveTracker\\Details.cshtml",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Details.cshtml",
+              "RelativeToolTip": "Pages\\LeaveTracker\\Details.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwFwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T21:07:18.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\LeaveTracker\\Details.cshtml.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\LeaveTracker\\Details.cshtml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwEIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T21:06:19.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T21:02:14.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\LeaveTracker\\Delete.cshtml.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\LeaveTracker\\Delete.cshtml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAuwEwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T20:59:02.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\LeaveTracker\\Edit.cshtml.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\LeaveTracker\\Edit.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T20:51:54.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DI_BasePageModel.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\DI_BasePageModel.cs",
+              "RelativeDocumentMoniker": "Pages\\LeaveTracker\\DI_BasePageModel.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\DI_BasePageModel.cs",
+              "RelativeToolTip": "Pages\\LeaveTracker\\DI_BasePageModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T19:29:13.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateModels.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\CreateModels.cs",
+              "RelativeDocumentMoniker": "Pages\\LeaveTracker\\CreateModels.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Pages\\LeaveTracker\\CreateModels.cs",
+              "RelativeToolTip": "Pages\\LeaveTracker\\CreateModels.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T19:26:48.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T19:24:33.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmployeeAdministratorsAuthorizationHandler.cs",
+              "DocumentMoniker": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Authorization\\EmployeeAdministratorsAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "Authorization\\EmployeeAdministratorsAuthorizationHandler.cs",
+              "ToolTip": "D:\\Big Data Analystics\\Information Encoding Standards\\EmployeeLeaveTrackerPortal\\Authorization\\EmployeeAdministratorsAuthorizationHandler.cs",
+              "RelativeToolTip": "Authorization\\EmployeeAdministratorsAuthorizationHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T19:07:51.564Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
